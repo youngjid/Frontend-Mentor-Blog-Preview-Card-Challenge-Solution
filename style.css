@@ -104,3 +104,17 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%); 
 }
+
+@media screen and (max-width: 600px) {
+    .card {
+      width: 90%;
+      margin: 0 auto;
+      box-shadow: 7px 7px 0 var(--black-color);
+    }
+  
+    .card:hover {
+      box-shadow: 16px 16px 0 var(--black-color);
+      transition: none; /* Remove transition on hover for small screens */
+    }
+  }
+  
